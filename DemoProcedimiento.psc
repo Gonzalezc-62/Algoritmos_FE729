@@ -5,7 +5,7 @@ SubProceso MostrarTitulo
 FinSubProceso
 
 Algoritmo DemoProcedimiento
-	MostrarTitulo
+	MostrarTitulo // subproceso 
 	Escribir  "El procedimiento ya termino"
 	
 FinAlgoritmo

@@ -1,0 +1,16 @@
+Funcion  prom <- CalcularPromedio(n1, n2, n3)
+	Definir prom Como Real
+	prom <- (n1 + n2 + n3 ) /3
+FinFuncion
+
+SubProceso  MostrarResultados(promedio)
+	Escribir "El promedio es: ", promedio
+FinSubProceso
+
+Algoritmo DemoFuncion
+	Definir  a, b , c , resultado Como Real
+	Escribir  "Tres Notas" 
+	Leer a, b , c
+	resultado <- CalcularPromedio(a,b,c)
+	MostrarResultados(resultado)	
+FinAlgoritmo
